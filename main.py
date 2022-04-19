@@ -7,7 +7,7 @@ import streamlit as st
 import pandas as pd
 from bokeh.plotting import figure
 st.header("Курсовая работа Юричковский.К.А ТФэ-01-19 Вариант 23")
-st.write("Ссылка на код: https://github.com/KirillYur/Turbine-2")
+st.write("Ссылка на код: https://github.com/KirillYur/Kursovaya")
 st.header("Часть №1")
 N_e = 545e6
 p_0 = 26.5e6
