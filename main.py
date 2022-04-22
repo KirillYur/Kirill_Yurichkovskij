@@ -238,7 +238,7 @@ p.line(x, y, legend_label='Зависимость КПД от температу
 
 st.write("Зависимость КПД от температуры")
 itog
-report_text = itog
+
 df = pd.DataFrame({
     "KPD.max" : (max(eta)),
     "Gk" : [G_k],
