@@ -779,6 +779,16 @@ sat_steam = WSP(P=p_0, h=h0)
 s_0 = sat_steam.s
 t_0 = sat_steam.T
 
+st.write("""# """)
+st.write(" *Дано:* ")
+st.write(""" P0 = 19.43 """ + """ МПа""")
+st.write(""" h0 = """ + str(h0) + """ кДж/кг""")
+st.write(""" dрс = """ + str(drs) + """ м """)
+st.write(""" Z = """ + str(Z) + """ шт """)
+st.write(""" G0 = """ + str(G0) + """ кг/с """)
+st.write(""" n = """ + str(n) + """ Гц """)
+st.write(""" eta_oi = """ + str(etaoi) + """ """)
+
 error = 2
 i = 1
 while error > 0.5:
