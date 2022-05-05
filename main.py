@@ -11,7 +11,6 @@ import base64
 from PIL import Image
 image = Image.open('image_2022-05-04_18-17-23.jpg')
 
-st.image(image, caption='Sunrise by the mountains')
 st.header("Курсовая работа Юричковский.К.А ТФэ-01-19 Вариант 23")
 st.write("Ссылка на код: https://github.com/KirillYur/Kirill_Yurichkovskij")
 st.header("Часть №1")
@@ -995,3 +994,6 @@ if export_as_pdf:
     html = create_download_link(pdf.output(dest="S").encode("latin-1"), "test")
 
     st.markdown(html, unsafe_allow_html=True)
+    
+    
+st.image(image, caption='3D модель ротора турбина')
