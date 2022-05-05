@@ -998,5 +998,5 @@ if export_as_pdf:
     
     
 st.image(image, caption='3D модель ротора турбины')
-st.image(image1, caption='Чертеж ротора турбинаы')
+st.image(image1, caption='Чертеж ротора турбины')
 
