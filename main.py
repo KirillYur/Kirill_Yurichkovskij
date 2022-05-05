@@ -8,7 +8,10 @@ import pandas as pd
 from bokeh.plotting import figure
 from fpdf import FPDF
 import base64
+from PIL import Image
+image = Image.open('image_2022-05-04_18-17-23.png')
 
+st.image(image, caption='Sunrise by the mountains')
 st.header("Курсовая работа Юричковский.К.А ТФэ-01-19 Вариант 23")
 st.write("Ссылка на код: https://github.com/KirillYur/Kirill_Yurichkovskij")
 st.header("Часть №1")
